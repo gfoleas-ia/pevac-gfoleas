@@ -122,13 +122,13 @@ with col1:
     st.markdown("""
     <div class="main-title">
     SOPP+IA Sofía:<br>
-    Descripción automática de imágenes de pies infantiles en pie equino varo
+    Descripción automática de imágenes de pies infantiles
     </div>
     """, unsafe_allow_html=True)
     st.markdown("""
     <div class="subtitle">
-    Aplicación académica de entrenamiento para explorar el uso de un modelo de Hugging Face
-    en la generación de descripciones textuales simples a partir de imágenes clínicas no identificables.
+    Aplicación académica de entrenamiento para explorar el uso de un modelo de IA
+    en la generación de descripciones textuales simples a partir de imágenes no identificables.
     </div>
     """, unsafe_allow_html=True)
 
