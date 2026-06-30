@@ -121,7 +121,7 @@ col1, col2 = st.columns([2.1, 1])
 with col1:
     st.markdown("""
     <div class="main-title">
-    SOPP+IA Sofía:<br>
+    SOPP+IA Sofía - Pie Equino Varo:<br>
     Descripción automática de imágenes de pies infantiles
     </div>
     """, unsafe_allow_html=True)
