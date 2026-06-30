@@ -152,11 +152,11 @@ st.markdown("""
 
 m1, m2, m3, m4 = st.columns(4)
 with m1:
-    st.markdown('<div class="metric-card"><div class="metric-number">BLIP</div><div class="metric-label">Modelo IA Generativa</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="metric-card"><div class="metric-number">IA GENERATIVA</div><div class="metric-label">Modelo IA Generativa</div></div>', unsafe_allow_html=True)
 with m2:
-    st.markdown('<div class="metric-card"><div class="metric-number">Image</div><div class="metric-label">Entrada visual</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="metric-card"><div class="metric-number">Imagen</div><div class="metric-label">Entrada visual</div></div>', unsafe_allow_html=True)
 with m3:
-    st.markdown('<div class="metric-card"><div class="metric-number">Text</div><div class="metric-label">Salida descriptiva</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="metric-card"><div class="metric-number">Texto</div><div class="metric-label">Salida descriptiva</div></div>', unsafe_allow_html=True)
 with m4:
     st.markdown('<div class="metric-card"><div class="metric-number">0</div><div class="metric-label">Diagnóstico clínico</div></div>', unsafe_allow_html=True)
 
