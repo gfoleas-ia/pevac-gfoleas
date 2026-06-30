@@ -1,0 +1,15 @@
+PASOS PARA GOOGLE COLAB
+1. Abrir Google Colab.
+2. Subir el archivo S4_Taller_HuggingFace_BLIP_Pie_Equino_Varo.ipynb.
+3. Ejecutar todas las celdas en orden.
+4. Cuando se solicite, subir una imagen no identificable de pies infantiles.
+5. Revisar que se observe el código, la imagen, la descripción y la interpretación.
+6. Exportar: Archivo > Imprimir > Guardar como PDF.
+
+PASOS PARA GITHUB + STREAMLIT
+1. Crear un repositorio nuevo en GitHub.
+2. Subir app.py, requirements.txt, README.md y la carpeta assets.
+3. Entrar a https://share.streamlit.io/ o Streamlit Community Cloud.
+4. Seleccionar el repositorio.
+5. Main file path: app.py.
+6. Deploy.
