@@ -102,11 +102,11 @@ section[data-testid="stSidebar"] * {
 with st.sidebar:
     if LOGO_PATH.exists():
         st.image(str(LOGO_PATH), width=180)
-    st.markdown("## SOPP+IA Sofía")
+    st.markdown("## SOPP+IA Sofía - Pie Equino Varo")
     st.markdown("**Entrenamiento educativo en Ortopedia Pediátrica**")
     st.divider()
     st.markdown("### Para estudiantes, padres y cuidadores")
-    st.write("Aplicación académica para explorar IA generativa en la descripción de imágenes no identificables de pies infantiles.")
+    st.write("Aplicación académica para explorar el uso de IA generativa en la descripción de imágenes no identificables de pies infantiles.")
     st.divider()
     st.markdown("**Desarrollado por:**")
     st.write("Dr. Geovanny F. Oleas-Santillán")
@@ -152,7 +152,7 @@ st.markdown("""
 
 m1, m2, m3, m4 = st.columns(4)
 with m1:
-    st.markdown('<div class="metric-card"><div class="metric-number">BLIP</div><div class="metric-label">Modelo Hugging Face</div></div>', unsafe_allow_html=True)
+    st.markdown('<div class="metric-card"><div class="metric-number">BLIP</div><div class="metric-label">Modelo IA Generativa</div></div>', unsafe_allow_html=True)
 with m2:
     st.markdown('<div class="metric-card"><div class="metric-number">Image</div><div class="metric-label">Entrada visual</div></div>', unsafe_allow_html=True)
 with m3:
@@ -222,8 +222,8 @@ if imagen is not None:
 
 st.divider()
 st.subheader("Doble chequeo del alcance")
-st.write("✅ Modelo de Hugging Face cargado correctamente.")
+st.write("✅ Modelo de IA cargado correctamente.")
 st.write("✅ Aplicación válida de inteligencia artificial: imagen a texto.")
-st.write("✅ Tema relacionado con ortopedia pediátrica: pie equino varo.")
+st.write("✅ Ortopedia pediátrica: pie equino varo.")
 st.write("✅ Uso educativo y de entrenamiento claramente declarado.")
 st.write("✅ No se presenta como diagnóstico ni como cálculo de escala clínica.")
