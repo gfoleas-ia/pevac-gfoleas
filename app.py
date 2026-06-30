@@ -144,7 +144,7 @@ Esta aplicación es educativa y de entrenamiento. No diagnostica pie equino varo
 
 st.markdown("""
 <div class="dev-box">
-<b>Modelo seleccionado:</b> Salesforce/blip-image-captioning-base<br>
+<b>Modelo seleccionado:</b> IA generativa multimodal de visión y lenguaje<br>
 <b>Objetivo:</b> generar una descripción textual simple de imágenes no identificables de pies infantiles.<br>
 <b>Alcance:</b> apoyo descriptivo básico para aprendizaje; no es una herramienta diagnóstica.
 </div>
